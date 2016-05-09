@@ -35,7 +35,8 @@ void test_less_smoketest(ErrorContext &ec) {
 
     class Widget {};
 
-    for (int i = 0; i < 10; i++) {
+    for (int i = 0; i < 10; i++)
+    {
         less<int> iless;
         less<unsigned> uless;
         less<float> fless;

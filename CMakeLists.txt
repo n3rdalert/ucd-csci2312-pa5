@@ -11,4 +11,4 @@ set(SOURCE_FILES
     main.cpp
     less_functor.h custom_iterator.h)
 
-add_executable(ucd_csci2312_pa5 ${SOURCE_FILES})
+add_executable(ucd_csci2312_pa5 ${SOURCE_FILES} less_functor.h)
